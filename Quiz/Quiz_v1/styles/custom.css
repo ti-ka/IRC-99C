@@ -1,0 +1,68 @@
+.question-set{
+    width: 500px;
+    background: #e94b33;
+    position: relative !important;
+    display: inline-block;
+    border: 2px solid #ffffff;
+}
+.question-set .question{
+    font-size: 1em;
+    background: #2589e9;
+    position: absolute;
+    visibility: hidden;
+    top :0;
+    color: #FFF;
+    z-index: 2;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.question-set .answers{
+    top :0;
+    display: inline-block;
+    z-index: 1;
+    background: #fff;
+}
+
+.question-set .question-nr{
+    font-size: 2em;
+    text-align: center;
+    vertical-align: middle;
+    background: #293c45;
+    border: 2px solid #ffffff;
+    color: #FFF;
+    cursor: pointer;
+}
+.question-set .question-nr:hover{
+    background: #235f7a;
+}
+
+.question-set .answers .answer{
+    background: #264d7a;
+    color: #FFF;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    cursor: pointer;
+    width: auto;
+    display: inline-block;
+}
+
+.question-set .answers .answer:hover{
+    background: #235f7a;
+}
+
+.question-set .answers .answer.checked{
+    background: darkgreen;
+}
+
+.col-xs-12, .col-xs-6, .col-xs-4{
+    margin: 0 !important;
+}
+div.clearfix{
+    margin: 20px;
+}
+input.form-control{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}

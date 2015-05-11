@@ -1,0 +1,22 @@
+{
+  "AER": {
+    "questionsCount": 4,
+    "correctAnswers": "ABCD"
+  },
+  "GSA": {
+    "questionsCount": 4,
+    "correctAnswers": "AAAA"
+  },
+  "Q3": {
+    "questionsCount": 7,
+    "correctAnswers": "AAAABBB"
+  },
+  "Q4": {
+    "questionsCount": 7,
+    "correctAnswers": "AAAABBB"
+  },
+  "MIDTERM": {
+    "questionsCount": 7,
+    "correctAnswers": "AAAABBB"
+  }
+}
