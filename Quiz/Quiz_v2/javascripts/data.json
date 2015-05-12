@@ -1,0 +1,32 @@
+[
+  {
+    "question"  : "What is the first letter of English Alphabet?",
+    "answerType" : "mcq",
+    "answers"   : [
+      "C",
+      "D",
+      "A",
+      "B"
+    ]
+  },
+  {
+    "question"  : "What is the first letter of English Alphabet?",
+    "answerType" : "mcq",
+    "answers"   : [
+      "C",
+      "D",
+      "A",
+      "B"
+    ]
+  },
+  {
+    "question"  : "When is the third world war beginning?",
+    "answerType" : "ma",
+    "answers"   : [
+      "1967",
+      "1957",
+      "2035",
+      "1989"
+    ]
+  }
+]

@@ -1,0 +1,2 @@
+Date/Time	Name/Id	Correct	Answers     Bin
+05/08 21:17	Løse kugler	2	ABAB    00001

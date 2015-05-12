@@ -1,0 +1,68 @@
+.question-set{
+    padding: 0;
+    position: relative !important;
+    display: inline-block;
+}
+.question-set .question{
+    font-size: 1em;
+    background: #2589e9;
+    position: absolute;
+    visibility: hidden;
+    top :0;
+    color: #FFF;
+    z-index: 2;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.question-set .answers{
+    top :0;
+    display: inline-block;
+    z-index: 1;
+    background: #fff;
+}
+
+.question-set .question-nr{
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #ffffff;
+    color: #293c45;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.question-set .question-nr:hover{
+    /*background: #235f7a;*/
+}
+
+.question-set .answers .answer{
+    background: #ccc;
+    color: #FFF;
+    border: 2px solid #ffffff;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px 0;
+    font-weight: 500;
+    font-size: 1.3em;
+    border-radius: 200px;
+}
+
+
+.question-set .answers .answer.checked{
+    background: #293c45;
+}
+
+.col-xs-12, .col-xs-6, .col-xs-4{
+    margin: 0 !important;
+}
+div.clearfix{
+    margin: 0px 16px;
+    padding-top: 50px;
+    clear: both;
+}
+input.form-control{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
